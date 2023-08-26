@@ -14,7 +14,7 @@ class RefreshIndicatorScreen extends StatelessWidget {
         onRefresh: () async {
           // 서버요청
           await Future.delayed(
-            Duration(seconds: 5),
+            Duration(seconds: 3),
           );
         },
         child: ListView(
